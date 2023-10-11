@@ -1,0 +1,62 @@
+#h1{
+    text-align: center;
+    background-color: grey;
+    text-transform: capitalize;
+    border-radius: 5px;
+
+}
+
+form{
+    width: 300px;
+    margin: 0 auto;
+
+}
+
+input,label{
+    display:block;
+    margin-bottom: 5px;
+    width: 200%;
+    transform: translateX(-25%);    
+}
+
+#div1{
+    border: solid black;
+    text-align: center;
+    margin: 2%;
+    border-radius: 5px;
+    padding: 5px;
+
+}
+
+#div2{
+    border: solid black;
+    text-align: center;
+    margin: 2%;
+    border-radius: 5px;
+    padding: 5px;
+
+}
+
+#div3{
+    border: solid black;
+    text-align: center;
+    margin: 2%;
+    border-radius: 5px;
+    padding: 5px;
+
+}
+
+/*Definindo o tamanho da imagem*/
+#imagem{
+    width: 5%;
+}
+
+/* Estilos para as imagens com efeito de zoom */
+.zoomable {
+    transition: transform 0.3s; /* Adiciona uma transição suave para o efeito de escala */
+}
+
+/* Adiciona o efeito de escala ao passar o mouse */
+.zoomable:hover {
+    transform: scale(1.2); /* Amplia a imagem em 20% */
+}
